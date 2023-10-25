@@ -19,7 +19,7 @@ public class DrawFigure {
 		EZ.addLine(0,20, 200,20, Color.RED, 1);
 
 		//矩形を描く(中心座標x, y, 幅, 高さ, 色, 塗りつぶし)
-		EZ.addRectangle(100,300, 100,50, Color.CYAN, true);
+		EZ.addRectangle(100,300, 100,50, Color.RED, true);
 		
 		//ポリゴンを描く(座標配列x, 座標配列y, 色, 塗りつぶし)
 		int[] xp = {200,300,220,250,290,200};
